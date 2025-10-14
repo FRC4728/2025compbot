@@ -1,0 +1,97 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Copy of Home To h"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutoAlign_BH_Right"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Wait At h Not Hit"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.75
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Copy of Leave h"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Copy of LeaveG To Algae1"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Copy of Algae1 To Barge"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Wait At Barge"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.3
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Copy of Barge To J Algae"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "J Algae To Barge"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Wait At Barge 2"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.25
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Leave Barge"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Middle Autos",
+  "choreoAuto": false
+}

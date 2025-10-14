@@ -1,0 +1,79 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Home to e"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutoAlign_RE_Left"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Wait At e"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.25
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "e To Source"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.75
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Source To d"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutoAlign_RD_Right"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Wait At d"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "d To Source"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Right Autos",
+  "choreoAuto": false
+}

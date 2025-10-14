@@ -1,0 +1,43 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Home To h"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutoAlign_BH_Right"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Wait At h Not Hit"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Leave h"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Middle Autos",
+  "choreoAuto": false
+}

@@ -1,0 +1,67 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Home to e"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutoAlign_BE_Left"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "e To Source"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Source To d"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutoAlign_BD_Right"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "d To Source"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Source To c"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutoAlign_BC_Left"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "c To Source"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Right Autos",
+  "choreoAuto": false
+}

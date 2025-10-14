@@ -1,0 +1,43 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Home To g"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutoAlign_RG_Left"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Wait at g Not Hit"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Leave g"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Middle Autos",
+  "choreoAuto": false
+}

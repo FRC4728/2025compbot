@@ -1,0 +1,79 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Home To h"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutoAlign_BH_Right"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Wait At h Not Hit"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Leave h"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "LeaveG To Algae1"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.5
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Algae1 To Barge"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Wait At Barge"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.5
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Barge To J Algae"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Middle Autos",
+  "choreoAuto": false
+}

@@ -1,0 +1,79 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Home To j"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutoAlign_BJ_Right"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Wait At j"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.25
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "j To Source"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.75
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Source To k"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutoAlign_BK_Left"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Wait At k"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "k To Source"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Left Autos",
+  "choreoAuto": false
+}
